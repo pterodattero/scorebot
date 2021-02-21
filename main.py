@@ -23,7 +23,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Bot's token
-TOKEN = "YOUR_TOKEN"
+TOKEN = process.env.TOKEN
 
 # Instanciate the main agents:
 
